@@ -159,3 +159,7 @@ kbd {
   letter-spacing: 1px;
   color:#ffc600;
 }
+
+.spacebar {
+  width: 225px;
+}
