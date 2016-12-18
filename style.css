@@ -10,6 +10,13 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+#container {
+  width: 100vw;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+}
 @-webkit-keyframes hvr-wobble-top {
   16.65% {
     -webkit-transform: skew(-12deg);
@@ -63,9 +70,7 @@ html {
   }
 }
 .hvr-wobble-top {
-  position: absolute;
-  top: 87vh;
-  left: 33.5vw;
+  margin-top: 5%;
   width: 400px;
   height: 50px;
   background-color: orange;
@@ -94,9 +99,7 @@ html {
   animation-timing-function: ease-in-out;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
-  position: absolute;
-  top: 87vh;
-  left: 33.5vw;
+  margin-top: 5%;
   width: 400px;
   height: 50px;
   background-color: orange;
@@ -111,22 +114,18 @@ html {
 }
 .top-keys {
   display: flex;
-  position: relative;
-  top: 15vh;
+  margin-top: 5%;
 }
 .keys {
-  position: relative;
   display:flex;
-  flex:1;
-  top: 25vh;
+  margin-top: 5%;
   align-items: center;
   justify-content: center;
 }
 .bottom-keys {
   align-items: center;
   display: flex;
-  position: relative;
-  top: 35vh;
+  margin-top: 5%;
 }
 
 .key {
